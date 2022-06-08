@@ -1,0 +1,4 @@
+{
+    "src/**/*.{json,css,scss,md}": ["prettier --white"],
+    "src/**/*.{js,jsx,ts,tsx}": ["prettier --white", "eslint --fix"]
+}
